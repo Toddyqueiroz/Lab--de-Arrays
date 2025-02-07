@@ -1,0 +1,55 @@
+/* Reset básico para garantir que a página fique limpa e consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4CAF50;
+}
+
+/* Seções e títulos secundários */
+h2 {
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Resultados das funções */
+pre {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Estilo para o container */
+body > div {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
